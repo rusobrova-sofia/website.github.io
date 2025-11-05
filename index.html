@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <header>
+            <nav class="navbar navbar-expand-md">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="images/logo.png" alt="Logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-0 column-gap-5">
+                            <li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle text-black" href="#" id="navbarDropdown" role="button"
+     data-bs-toggle="dropdown" aria-expanded="false">
+    Продукция
+  </a>
+  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+    <li><a class="dropdown-item" href="#">Упаковка</a></li>
+    <li><a class="dropdown-item" href="#">Пакеты</a></li>
+    <li><a class="dropdown-item" href="#">Кейсы</a></li>
+  </ul> 
+</li>
+                            <li class="nav-item">
+                                <a class="nav-link text-black" href="#">Материалы</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-black" href="#">О нас</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-black" href="#">Контакты</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="header-line"></div>
+        <main>
+            <section
+                class="d-flex flex-column flex-md-row column-gap-5 justify-content-center align-items-center text-center text-md-start main-block">
+                <div class="order-2 order-md-1">
+                    <h1 class="fs-1">Простые вещи.<br>Из бумаги</h1>
+                    <p class="main-text my-4">Бума́га (предположительно от итал. bombagia, первоисточником же считается
+                        иранский) — волокнистый материал с минеральными добавками. </p>
+                    <button class="main-btn">Каталог</button>
+                </div>
+                <img src="images/back.png" alt="" class="mt-5 order-1 order-md-2 img-fluid">
+            </section>
+            <section class="gray-block">
+                <ul class="nav nav-tabs mb-4 d-flex
+                justify-content-center" id="versionTabs" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="v1-tab" data-bs-toggle="tab" data-bs-target="#v1"
+                            type="button" role="tab" aria-controls="v1" aria-selected="true">V.1</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="v2-tab" data-bs-toggle="tab" data-bs-target="#v2" type="button"
+                            role="tab" aria-controls="v2" aria-selected="false">V.2</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="v3-tab" data-bs-toggle="tab" data-bs-target="#v3" type="button"
+                            role="tab" aria-controls="v3" aria-selected="false">V.3</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="v4-tab" data-bs-toggle="tab" data-bs-target="#v4" type="button"
+                            role="tab" aria-controls="v4" aria-selected="false">V.4</button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="versionTabsContent">
+                    <div class="tab-pane fade show active" id="v1" role="tabpanel" aria-labelledby="v1-tab">
+                        <div class="row align-items-center">
+                            <div class="col-md-4 mb-3 mb-md-0">
+                                <img src="images/v1.png" class="img-fluid" alt="Version 1 Illustration">
+                            </div>
+                            <div class="col-md-8">
+                                <h3>V.1</h3>
+                                <p class="lead">Результат вашего обучения</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade " id="v2" role="tabpanel" aria-labelledby="v2-tab">
+                        <div class="row align-items-center">
+                            <div class="col-md-4 mb-3 mb-md-0">
+                                <img src="images/v2.png" class="img-fluid" alt="Version 2 Illustration">
+                            </div>
+                            <div class="col-md-8">
+                                <h3>V.2</h3>
+                                <p class="lead">Результат вашего обучения</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade " id="v3" role="tabpanel" aria-labelledby="v3-tab">
+                        <div class="row align-items-center">
+                            <div class="col-md-4 mb-3 mb-md-0">
+                                <img src="images/v3.png" class="img-fluid" alt="Version 3 Illustration">
+                            </div>
+                            <div class="col-md-8">
+                                <h3>V.3</h3>
+                                <p class="lead">Результат вашего обучения</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade " id="v4" role="tabpanel" aria-labelledby="v4-tab">
+                        <div class="row align-items-center">
+                            <div class="col-md-4 mb-3 mb-md-0">
+                                <img src="images/v4.png" class="img-fluid" alt="Version 4 Illustration">
+                            </div>
+                            <div class="col-md-8">
+                                <h3>Максимальная белизна</h3>
+                                <p class="lead">Для повышения белизны, гладкости и мягкости в состав бумажной массы
+                                    вводят белые минеральные вещества: мел, тальк, каолин и др. Эта операция называется
+                                    наполнением.
+                                    <br>
+                                    Отлив бумажного листа осуществляют на бумагоделательной машине, важнейшей частью
+                                    которой является непрерывно движущаяся (как транспортер) металлическая или
+                                    капроновая сетка.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="accordion-block py-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 col-lg-3 mb-4">
+                            <div class="card h-100">
+                                <img src="images/img1.png" class="card-img-top" alt="Block 1 Image">
+                                <div class="accordion custom-accordion" id="accordionBlock1">
+                                    <div class="accordion-item border-0">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                                aria-expanded="false" aria-controls="collapseOne">
+                                                Упаковка
+                                            </button>
+                                        </h2>
+                                        <div id="collapseOne" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionBlock1">
+                                            <div class="accordion-body">
+                                                <p>Сделано из крафт-бумаги или плотного картона. Упаковки имеют
+                                                    различные формы и расцветки, изготовим форму под заказ.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3 mb-4">
+                            <div class="card h-100">
+                                <img src="images/img2.png" class="card-img-top" alt="Block 2 Image">
+                                <div class="accordion custom-accordion" id="accordionBlock2">
+                                    <div class="accordion-item border-0">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                                aria-expanded="false" aria-controls="collapseTwo">
+                                                Пакеты
+                                            </button>
+                                        </h2>
+                                        <div id="collapseTwo" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionBlock2">
+                                            <div class="accordion-body">
+                                                <p>С прямоугольным дном. От 10 см до 60 см по высоте. Материалы: картон,
+                                                    крафт-бумага. Различные расцветки и дизайн.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3 mb-4">
+                            <div class="card h-100">
+                                <img src="images/img3.png" class="card-img-top" alt="Block 3 Image">
+                                <div class="accordion custom-accordion" id="accordionBlock3">
+                                    <div class="accordion-item border-0">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                                aria-expanded="false" aria-controls="collapseThree">
+                                                Кейсы
+                                            </button>
+                                        </h2>
+                                        <div id="collapseThree" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionBlock3">
+                                            <div class="accordion-body">
+                                                <p>Подойдет для документов и других бумаг. Различные расцветки, размеры
+                                                    и плотность. Материал: прессованная бумага.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3 mb-4">
+                            <div class="card h-100">
+                                <img src="images/img4.png" class="card-img-top" alt="Block 4 Image">
+                                <div class="accordion custom-accordion" id="accordionBlock4">
+                                    <div class="accordion-item border-0">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                                                aria-expanded="false" aria-controls="collapseFour">
+                                                Другие изделия
+                                            </button>
+                                        </h2>
+                                        <div id="collapseFour" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionBlock4">
+                                            <div class="accordion-body">
+                                                <p>Нестандартные упаковки, кейсы и другие изделия различных размеров
+                                                    и конфигураций. Изготовим в кратчайшие сроки.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="gray-block">
+                <div class="container">
+                    <div id="imageCarousel" class="carousel slide custom-carousel" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="0" class="active"
+                                aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="3"
+                                aria-label="Slide 4"></button>
+                        </div>
+                        <div class="carousel-inner rounded">
+                            <div class="carousel-item active">
+                                <img src="images/slide1.png" class="d-block w-100" alt="Slide 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/slide2.png" class="d-block w-100" alt="Slide 2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/slide3.png" class="d-block w-100" alt="Slide 3">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/slide4.png" class="d-block w-100" alt="Slide 4">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden"></span>
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <section class="d-flex column-gap-5 justify-content-center align-items-center main-block">
+                <div class="book-block">
+                    <h2 class="fs-1">Simple скетчбук</h2>
+                    <p class="main-text my-4">80 листов, твердая обложка, бумага Fabriano 200 г/м2. Подойдет и для
+                        графики и для акварели. Для самых смелых творческих замыслов! </p>
+                    <button class="main-btn btn btn-primary" data-bs-toggle="modal" data-bs-target="#purchaseModal">
+                        Купить
+                    </button>
+                </div>
+                <img src="images/book.png" alt="" class="mt-5 img-fluid">
+            </section>
+
+            <div class="modal fade" id="purchaseModal" tabindex="-1" aria-labelledby="purchaseModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="purchaseModalLabel">Форма заказа</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form id="purchaseForm">
+                                <div class="mb-3">
+                                    <label for="customerName" class="form-label">Имя</label>
+                                    <input type="text" class="form-control" id="customerName" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="customerEmail" class="form-label">Почта</label>
+                                    <input type="email" class="form-control" id="customerEmail" required>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Закрыть</button>
+                                    <button type="submit" class="btn btn-primary">Отправить</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <footer class="footer-blue">
+        <div
+            class="d-flex flex-column flex-md-row justify-content-md-around justify-content-center align-items-center px-3 py-4">
+            <img src="images/footer-logo.png" alt="" class="mb-3 mb-md-0 img-fluid" style="max-height: 40px;">
+            <nav class="d-flex gap-3 gap-md-5 align-items-center m-0">
+                <a href="#"><img src="images/footer1.png" alt="Social 1" class="img-fluid"
+                        style="max-height: 30px;"></a>
+                <a href="#"><img src="images/footer2.png" alt="Social 2" class="img-fluid"
+                        style="max-height: 30px;"></a>
+                <a href="#"><img src="images/footer3.png" alt="Social 3" class="img-fluid"
+                        style="max-height: 30px;"></a>
+                <a href="#"><img src="images/footer4.png" alt="Social 4" class="img-fluid"
+                        style="max-height: 30px;"></a>
+            </nav>
+        </div>
+    </footer>
+    <p class="text-center py-2 m-0">COPYRIGHT 2025</p>
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+  <div id="successToast" class="toast align-items-center text-bg-success border-0" role="alert"
+       aria-live="assertive" aria-atomic="true">
+    <div class="d-flex">
+      <div class="toast-body">
+         Спасибо за заказ! Мы свяжемся с вами по почте.
+      </div>
+      <button type="button" class="btn-close btn-close-white me-2 m-auto"
+              data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
+  </div>
+</div>
+</body>
+
+</html>
